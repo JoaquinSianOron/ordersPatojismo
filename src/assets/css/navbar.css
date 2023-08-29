@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbarRight{
+    background-color: #4D4D4D;
+    width: 147px;
+    height: 100vh;
+    top: 0px;
+    
+}
+.navbar{
+    background-color: #4D4D4D;
+    width: 100vw;
+    height: 61px;
+    position: relative;
+    
+
+}
+
+.imgLogo{
+    width: 104px;
+height: 107px;
+}
