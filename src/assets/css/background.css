@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*min-height: 61px;*/
+    
+}
+div{
+    background-color: #B89595;
+    width: 320px;
+    height: 100vh;
+   /* margin: 0px;*/
+    float:right ;
+    transform: translateX(61px);
+    
+}
