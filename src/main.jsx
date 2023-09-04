@@ -1,9 +1,11 @@
 import React from 'react' 
 import ReactDOM from 'react-dom/client'
-import HomeKitchen from './components/homeKitchen'
+import Home from './components/home'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HomeKitchen></HomeKitchen>
+    <Home></Home>
+
   </React.StrictMode>,
 )
