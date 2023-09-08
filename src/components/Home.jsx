@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./navbar";
-
+/*import Background from "./background";*/
 function home() {
   return (
     <div>

@@ -10,7 +10,6 @@ function navbar() {
       </div>
       <div className="navbarRight">
         <img className="imgLogo" src={logoPatojos}></img>
-
         <div>
           <button className="buttonOrdenar">ORDENAR</button>
           <button className="buttonCocina">COCINA</button>
