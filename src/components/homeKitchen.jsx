@@ -1,12 +1,12 @@
 import React from "react";
-import Background from './background'
 
-function home(){
-    return(
-        <div>
-            
-            
-        </div>
-    )
+import NarvarKitchen from "./navbarKitchen";
+
+function homeKitchen() {
+  return (
+    <div>
+      <NarvarKitchen></NarvarKitchen>
+    </div>
+  );
 }
-export default home
+export default homeKitchen;

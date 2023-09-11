@@ -5,9 +5,6 @@ import {} from '../assets/css/background.css'
 function background(){
     return(
         <div>
-           
-            
-
             
         </div>
     )
