@@ -5,7 +5,7 @@ function home(){
     return(
         <div>
             
-            <Background></Background>
+            
         </div>
     )
 }
