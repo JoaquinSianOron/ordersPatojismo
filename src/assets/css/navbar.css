@@ -2,6 +2,7 @@
 * {
   margin: 0px;
   padding: 0px;
+ /* z-index: 2;*/
 }
 
 .navbarMenu {
@@ -64,3 +65,4 @@
   font-family: "Lalezar", cursive;
   color: #fff;
 }
+
