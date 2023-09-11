@@ -7,8 +7,10 @@ function navbar() {
     <div>
       
       <div className="navbar">
-        <div className="navbarMenu">COCINA</div>  
+        <div className="navbarMenu ">COCINA</div>  
       </div>
+
+
       <div className="row">
         <div className="col">      
         <div className="row">
@@ -23,6 +25,11 @@ function navbar() {
             </div>
           </div>
           <div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+              <div className="navbarLeft"/>
           </div>
         </div>
         <div className="col">
