@@ -1,10 +1,12 @@
 import React from 'react' 
 import ReactDOM from 'react-dom/client'
-import HomeKitchen from './components/homeKitchen'
+import Home from './components/Home.jsx'
 import "bootstrap/dist/css/bootstrap.css"
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HomeKitchen></HomeKitchen>
+    <Home></Home>
+
   </React.StrictMode>
 )
