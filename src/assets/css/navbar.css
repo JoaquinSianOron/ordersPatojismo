@@ -7,7 +7,7 @@
 
 .navbarMenu {
   background-color: #999;
-  margin: 20px;
+  margin: 600px;
   width: 168px;
   height: 61px;
   text-align: center;
@@ -35,21 +35,21 @@
 
 /* navbar.css */
 
-.navbarRight {
+.navbarLeft {
   background-color: #4d4d4d;
+  margin-top: 61px;
   width: 147px;
-  height: 100vh; /* Cambia la altura a "auto" para que se ajuste al contenido */
-  top: 0px;
-  display: flex;
-  flex-direction: column; /* Alinea los elementos verticalmente */
-  justify-content: flex-start; /* Alinea los elementos en la parte superior */
-  align-items: center;
-  padding: 0px; /* Agrega un espacio interno */
+  height: 100vh;
+  margin: 0px;
+  float:left ;
+  z-index: 100;
+ /* transform: translateX(61px);*/
+
 }
 
 .imgLogo {
-  width: 100%; /* Asegura que la imagen ocupe todo el ancho */
-  max-width: 100%; /* Asegura que la imagen no desborde */
+  width: 50%; /* Asegura que la imagen ocupe todo el ancho */
+  max-width: 50%; /* Asegura que la imagen no desborde*/ 
 
   width: 104px;
   height: 107px;
