@@ -1,0 +1,65 @@
+.Orden{
+    align-content: center;
+    background-color: #999;
+    width: 439px;
+    height: 103px; 
+    text-align: center;
+    color: #000;
+    margin:50px ;
+    
+  
+    /* right */
+    font-family: Lalezar;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+  .NumeroOrden{
+    background-color: #AA8787;
+    width: 83px;
+    height: 26px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    border: 1px solid #000; /* Agregar un borde negro de 1 píxel */
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex; /* Utiliza flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+ 
+
+   
+ .col-4{
+  align-items: center;
+  justify-content: center;
+ }
+  
+  .buttonListo{
+    background: #AA8787;
+    width: 82px;
+    height: 38px;
+   
+    
+
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+
+  }
