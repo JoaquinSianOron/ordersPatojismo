@@ -10,12 +10,13 @@ function navbar() {
         <div className="navbarMenu ">COCINA</div>  
       </div>
 
-
       <div className="row">
-        <div className="col">      
+        <div className="col">    
+
         <div className="row">
           <img className="imgLogo" src={logoPatojos}></img>
           </div>    
+
           <div className="row">
             <div className="col">
             <button className="buttonOrdenar">ORDENAR</button>
@@ -24,6 +25,7 @@ function navbar() {
             <button className="buttonCocina">COCINA</button>
             </div>
           </div>
+
           <div>
           </div>
         </div>
