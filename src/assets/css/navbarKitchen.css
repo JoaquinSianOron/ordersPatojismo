@@ -8,7 +8,7 @@
 .navbarCocina {
   background-color: #999;
   margin: 600px;
-  width: 168px;
+  width: 178px;
   height: 61px;
   text-align: center;
   color: #fff;
@@ -24,7 +24,7 @@
 .navbarKitchen {
   align-content: center;
   background-color: #4d4d4d;
-  width: 100vw;
+  width: 100rem;
   height: 61px;
   position: relative;
 
@@ -35,6 +35,7 @@
 
 .col-1 {
   min-width: 147px;
+  margin-left: 0px;
 }
 
 
@@ -105,13 +106,15 @@
 
 
 .col-3 {
-  min-width: 320px;
+  /*min-width: 320px;*/
   background-color: #B89595;
-  margin-top: 0px;
   width: 320px;
   height: 100vh;
-  margin-left: 0px;
   text-align: center;
   float: right;
 
+  display: flex;
+  justify-content: center;
+
+  
 }
