@@ -1,5 +1,4 @@
 import React from "react";
-import { } from "../assets/css/navbarKitchen.css";
 import CeentralSquare from "./centralsquare";
 import RightSquare from "./rightsquare";
 import logoPatojos from "../assets/images/logoPatojos.png";
@@ -7,7 +6,7 @@ import logoPatojos from "../assets/images/logoPatojos.png";
 
 function navbar() {
   return (
-    <div >
+    <div>
       <div className="navbarKitchen">
         <div className="navbarCocina">COCINA</div>
       </div>
