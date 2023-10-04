@@ -7,37 +7,19 @@ import logoPatojos from "../assets/images/logoPatojos.png";
 function navbar() {
   return (
     <div>
-      <div className="navbarKitchen">
-        <div className="navbarCocina">COCINA</div>
+      <div className="bg-gris-100 flex sm-h-61 md-h-61 xl-h-61 items-center justify-center mx-0">
+            <div className="text-center bg-gris-200 p-0 m-0 h-61 w-168 items-center justify-center">
+              <div className="font-Lalezar text-3xl text-3sm font-normal text-blanco"> Cocina </div>
+               </div>
       </div>
 
 
 
-      <div className="row">
-
-        <div className="col-1 ">
-          <div className="navbarLeft">
-            <img className="imgLogo" src={logoPatojos}></img>
-            <button className="buttonOrdenar">ORDENAR</button>
-            <button className="buttonCocina">COCINA</button>
-          </div>
-        </div>
-
-        <div className="col flex-size">
-          <CeentralSquare>
-          </CeentralSquare>
-        </div>
-        <div className="col-3">
-          <RightSquare></RightSquare>
-        </div>
-      </div>
     </div>
 
 
   );
 }
-
-
 
 
 export default navbar;
