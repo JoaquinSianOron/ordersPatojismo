@@ -1,5 +1,5 @@
 import React from "react";
-import { } from "../assets/css/square.css";
+
 
 function square() {
     return (
