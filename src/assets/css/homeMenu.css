@@ -59,6 +59,7 @@ transform: translateX(61px);
   
 }
 
+
 /* Establece un ancho mínimo para la última columna */
 .col-3 {
   min-width: 320px;

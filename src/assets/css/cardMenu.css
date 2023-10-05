@@ -1,5 +1,10 @@
 .cardOrders{
-    width: 439px;
+    margin-top: 10px;
+    width: 600px;
     height: 76px;
-    background-color: red;
+    background-color: #D9D9D9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

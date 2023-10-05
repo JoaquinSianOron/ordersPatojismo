@@ -16,13 +16,17 @@ useEffect(() => {
 }, []);
 
 
-  return <div className='cardOrders'>
-      {orders.map(food => (
+  return <div>
+
+{orders.map(food => (
+  <div className='cardOrders'>
         <div key={food.id}>
-          <h1>food : {food.food}</h1>
-          <h1>price : Q. {food.price} </h1>
+          <h1>{food.name} - Q. {food.price} .00</h1>
+        
+        </div>
         </div>
       ))}
+
 
 
     </div>
