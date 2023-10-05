@@ -1,5 +1,4 @@
 import React from "react";
-import {} from "../assets/css/navbar.css";
 import logoPatojos from "../assets/images/logoPatojos.png";
 
 function navbar() {

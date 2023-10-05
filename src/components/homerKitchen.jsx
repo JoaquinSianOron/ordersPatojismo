@@ -1,32 +1,37 @@
 import React from "react";
-import CeentralSquare from "./centralsquare";
-import RightSquare from "./rightsquare";
-import logoPatojos from "../assets/images/logoPatojos.png";
+import logoPatojos from "../assets/images/logoPatojos.png"
 
-
-function navbar() {
+function Navbar() {
   return (
-    <div>
-      <div className="bg-gris-100 flex sm-h-61 md-h-61 xl-h-61 items-center justify-center mx-0">
-            <div className="text-center bg-gris-200 p-0 m-0 h-61 w-168 items-center justify-center">
-              <div className="font-Lalezar text-3xl text-3sm font-normal text-blanco"> Cocina </div>
+    <div className="flex">
+      {/* Barra lateral */}
+      <aside className="bg-gray-700 w-24 h-screen flex flex-col items-center justify-start">
+        <img src={logoPatojos} className="w-16 mt-4" alt="Logo Patojos" /> {/* Establece el tamaño y el margen superior (mt) */}
+        <div className="text-center mt-4">
+          <button className="block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-1 rounded mb-2 w-full">
+            Botón 1
+          </button>
+          <button className="block bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-1 rounded w-full">
+            Botón 2
+          </button>
+        </div>
+      </aside>
 
-              <h1>Hola </h1>
-              <h2>que tal </h2>
-               </div>
-      </div>
+      {/* Contenido principal */}
+      <main className="flex-grow p-0">
+        {/* Navbar */}
+        <nav className="bg-gray-700 p-4 text-center">
+          <h1 className="text-2xl font-bold text-white">COCINA</h1>
+        </nav>
 
-
-
+        {/* Contenido del resto de la página */}
+        {/* Tu contenido aquí */}
+      </main>
     </div>
-
-
   );
 }
 
-
-export default navbar;
-
+export default Navbar;
 
 
 
