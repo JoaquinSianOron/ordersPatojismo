@@ -10,6 +10,9 @@ function navbar() {
       <div className="bg-gris-100 flex sm-h-61 md-h-61 xl-h-61 items-center justify-center mx-0">
             <div className="text-center bg-gris-200 p-0 m-0 h-61 w-168 items-center justify-center">
               <div className="font-Lalezar text-3xl text-3sm font-normal text-blanco"> Cocina </div>
+
+              <h1>Hola </h1>
+              <h2>que tal </h2>
                </div>
       </div>
 
