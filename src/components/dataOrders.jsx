@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
-import getAllFood from '../api/ordersApi'
+import React, { useEffect } from 'react';
 import { useState } from 'react';
-import {} from "../assets/css/cardMenu.css"
+import {getAllFood, getAllOrders} from '../api/ordersApi';
+import {} from "../assets/css/cardMenu.css";
 
 function dataOrders() {
 const [orders, setOrders] = useState([]);
@@ -24,7 +24,7 @@ useEffect(() => {
           <h1>{food.name} - Q. {food.price} .00</h1> 
         
         </div>
-        <button className="bg-AA8787  text-black font-Lalezar sm-w-147 py-2 px-1 mt-1/2 rounded">
+        <button className="bg-piel-100  text-black font-Lalezar sm-w-147 py-2 px-1 mt-1/2 rounded">
   Ordenar
 </button>
         </div>

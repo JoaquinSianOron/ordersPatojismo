@@ -7,4 +7,7 @@ const getAllFood = () => {
    //https://backendkitchenapp.onrender.com/orders/order/
 } 
 
-export default getAllFood;
+const getAllOrders = () => {
+    return axios.get("https://backendkitchenapp.onrender.com/orders/order/")
+}
+export { getAllFood, getAllOrders };
