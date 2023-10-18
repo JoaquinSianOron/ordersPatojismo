@@ -3,20 +3,22 @@ import React from "react";
 function lateral() {
   return (
     <div>
-      <aside className="bg-gris-100 sm-w-147 md-w-147 xl-w-147 h-screen flex flex-col items-center justify-start">
-        <img src={logoPatojos} className="sm-w-104 sm-h-107 md-w-104 h-107 mt-10 m-5" alt="Logo Patojos" /> {/* Establece el tamaño y el margen superior (mt) */}
-        <div className="flex flex-col items-center justify-center h-full w-147" >
-          <button className="bg-gris-200 hover:bg-gris-300 text-black font-Lalezar sm-w-147 py-2 px-1 mt-1/2 rounded mb-5 w-full">
-            ORDENAR
-          </button>
-
-          <button className="bg-gris-200 hover:bg-gris-300 text-black font-Lalezar sm-w-147 py-2 px-1 mt-1/2 rounded w-full">
-            COCINA
-          </button>
-
-
+      <div className="grid grid-cols-2">
+          {/* Columna 1 con ancho de 512px */}
+          <div className="overflow-x-auto flex-grow bg-white sm:w-512 md:w-512 xl:w-512 max-h-[50rem] flex flex-col items-center justify-start pl-147">
+            <DataOrdes></DataOrdes>
+            <DataOrdes></DataOrdes>
+          </div>
+          {/* Columna 2 con ancho de 320px */}
+          <div className="bg-piel-200 sm:w-320 md:w-320 xl:w-320 max-h-[50rem] flex flex-col items-center justify-start mr-0">
+            Contenido de la columna 2 (Ancho: 320px)
+            Contenido de la columna 2 (Ancho: 320px)
+            Contenido de la columna 2 (Ancho: 320px)
+          </div>
         </div>
-      </aside>
+
+        {/* Contenido del resto de la página */}
+        {/* Tu contenido aquí */}
     </div>
   );
 
