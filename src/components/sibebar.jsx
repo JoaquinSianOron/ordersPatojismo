@@ -1,18 +1,32 @@
-import React from "react";
+import React from 'react'
+//icons
+
 import logoPatojos from "../assets/images/logoPatojos.png";
 
-export default function Sibebar({ }) {
+const sibebar = () => {
     return (
-        <aside className=" h-screen">
-            <nav className="h-full flex flex-col bg-gris-100 border-r shadow-sm items-center justify-center mx-0">
-                <div className="p-4 pb-2 flex justify-between items-center ">
-                    <img src={logoPatojos} className="sm-w-104 sm-h-107 md-w-104 h-107 mt-10 m-5" alt="Logo Patojos" /> {/* Establece el tamaño y el margen superior (mt) */}
-                    <button className="p-1.5 rounded-lg bg-gris-200 hover:bg-gray-300">
-                        <ChevronFirts/>
-                    </button>
-                </div>
-            </nav>
+        <>
+            <div className="bg-gris-100 h-full fixed lg:static w-147 left-0 top-0">
 
-        </aside>
+                <div className='flex flex-col items-center justify-center flex-grow'>
+                    <img src={logoPatojos} className="sm-w-104 sm-h-107 md-w-104 h-107 mt-10 m-5" alt="Logo Patojos" />
+
+                </div>
+                <div className='flex flex-col'>
+                    <button className="bg-gris-200 hover:bg-gris-300 text-black font-Lalezar sm-w-147 py-2 px-1 mt-1/2 rounded mb-5 w-full">
+                        ORDENAR
+                    </button>
+
+                    <button className="bg-gris-200 hover:bg-gris-300 text-black font-Lalezar sm-w-147 py-2 px-1 mt-1/2 rounded w-full">
+                        COCINA
+                    </button>
+
+                </div>
+            </div>
+
+        </>
+
     )
 }
+
+export default sibebar
