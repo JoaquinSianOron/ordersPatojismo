@@ -1,46 +1,24 @@
 import React from "react";
-import {} from "../assets/css/navbar.css";
 import logoPatojos from "../assets/images/logoPatojos.png";
 
 function navbar() {
   return (
-    <div>
-      
-      <div className="navbar">
-        <div className="navbarMenu ">COCINA</div>  
-      </div>
+    <aside  >
 
-      <div className="row">
-        <div className="col">    
-
-        <div className="row">
-          <img className="imgLogo" src={logoPatojos}></img>
-          </div>    
-
-          <div className="row">
-            <div className="col">
-            <button className="buttonOrdenar">ORDENAR</button>
-            </div>
-            <div className="col">
-            <button className="buttonCocina">COCINA</button>
-            </div>
+      {/* Navbar */}
+      <nav className="flex bg-gris-100 border-r shadow-sm items-center justify-center mx-0">
+       <button className="p-1.5 rounded-lg bg-gris-200 hover:bg-gray-300">
+       
+       </button>
+       <div className=" px-10 flex justify-between items center">
+       <div className="text-center bg-gris-200 p-0 m-0 h-61 w-168 items-center justify-center">
+          <div className="font-Lalezar text-3xl text-3sm font-normal text-blanco mt-4">
+            COCINA
           </div>
-
-          <div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-              <div className="navbarLeft"/>
-          </div>
-        </div>
-        <div className="col">
-          <div className= 'backgroudnRight'/>
-          <div className= 'backgrundCenter'/>
-        </div>
-      </div>
-
-    </div>
+       </div>
+       </div>
+      </nav>
+    </aside>
   );
 }
 
