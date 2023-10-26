@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import getAllFood from '../api/ordersApi'
+import getAllFood from '../api/ordersApi.js'
 import { useState } from 'react';
 import {} from "../assets/css/cardMenu.css"
 

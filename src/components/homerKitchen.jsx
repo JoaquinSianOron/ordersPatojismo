@@ -18,9 +18,8 @@ function Navbar() {
         </div>
 
         <div className="flex flex-row justify-items-stretch">
-          <div className="flex flex-1 min-h-screen overflow-y-scroll justify-self-stretch  mx-0">
+          <div className="flex flex-1 min-h-screen overflow-y-scroll items-center justify-center mx-0">
             <CentralSquare />
-
           </div>
           <div className="flex  min-h-screen overflow-y-scroll ml-0 justify-self-end">
             <SquareLeft />
