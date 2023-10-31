@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
-import getAllFood from "../api/ordersApi";
-import { useState } from "react";
-import {} from "../assets/css/cardMenu.css";
+import React, { useEffect } from 'react'
+import getAllFood from '../api/ordersApi'
+import { useState } from 'react';
+import {} from "../assets/css/cardMenu.css"
+
 
 function dataOrders() {
   const [orders, setOrders] = useState([]);
